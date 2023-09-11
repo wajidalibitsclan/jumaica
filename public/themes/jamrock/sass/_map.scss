@@ -1,0 +1,161 @@
+.has-search-map .bravo_search_map{
+    background: #EAEAEA!important;
+    padding: 30px;
+    border:none!important;
+}
+.has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map{
+    padding: 0px!important;
+}
+.has-search-map .bravo_wrap .bravo_form_search_map{
+    background: #EAEAEA;
+    padding: 30px;
+    padding-bottom: 0px;
+    .bravo_form{
+        border-radius: 8px;
+        .form-group{
+            border:none!important;
+        }
+    }
+}
+.bravo_wrap .bravo-list-item .list-item{
+    margin-top: 0px!important;
+}
+.has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map .bravo_form .form-group{
+    display: flex;
+    align-items: center;
+}
+.has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map .bravo_form .field-icon {
+    position: static!important;
+    margin: 0px!important;
+    flex-shrink: 0;
+}
+.has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map .filter-item{
+    &:first-child{
+        position: relative;
+        &:after{
+            position: absolute;
+            right: 10px;
+            content: "";
+            width: 1px;
+            top: 8px;
+            bottom: 8px;
+            border-right: 1px solid #c0bfbf;
+        }
+    }
+}
+.filter-item{
+    .popup_location{
+        /*opacity: 0;
+        visibility: hidden;*/
+        transition: all 0.3s;
+        position: absolute;
+        background: #fff;
+        padding: 0;
+        top: 100%;
+        margin-top: 15px;
+        left: 0;
+        border-radius: 5px;
+        border: solid 1px #dee2e6;
+        z-index: 20;
+        overflow-y: auto;
+        right: 10px;
+        padding: 30px 30px 40px 30px;
+        .popup_title{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #242E42;
+            margin-bottom: 20px;
+        }
+        .popup_lists{
+            a{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #0070C1;
+                display: block;
+                margin-bottom: 15px;
+            }
+        }
+        .go{
+            margin-top: 40px;
+            text-align: center;
+            .btn{
+                background: #0070C1;
+                border-radius: 4px;
+                padding: 17px 100px;
+            }
+        }
+    }
+}
+.has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map{
+    .btn{
+        border-radius: 5px;
+        background: #0070C1;
+    }
+    .box-count{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #F2F2F2;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        height: 100%;
+    }
+}
+.has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map .bravo_form .field-icon{
+    color:var(--primary) !important
+}
+.bravo_wrap .bravo_form #pickup_filter  {
+    .form-control{
+        color:#00B050!important;
+        &::placeholder{
+            color:#00B050!important;
+        }
+    }
+    .field-icon{
+        color:#00B050!important;
+    }
+}
+.bravo_wrap .bravo_form #pickup_filter{
+
+}
+.bravo_wrap .bravo_detail_tour .bravo_single_book .submit-group{
+    border:none!important;
+    padding-bottom: 0px!important;
+}
+.has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map .bravo_form .form-content{
+    padding: 0px!important;
+    padding-left: 15px!important;
+    flex-grow: 1;
+    .input-search{
+        .form-control{
+            padding: 7px 15px 7px 0px!important;
+        }
+    }
+}
+.has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map .filter-item:first-child{
+
+    .form-control{
+        color:#00B050!important;
+        &::placeholder{
+            color:#00B050!important;
+        }
+    }
+    .field-icon{
+        color:#00B050!important;
+    }
+}
+.form-floating .vue__time-picker{
+    width: 100%;
+    border:none!important;
+    padding: 0px;
+    input.display-time{
+        width: 100%;
+        padding: 1rem 0.75rem;
+        padding-top: 1.625rem;
+        padding-bottom: 0.625rem;
+        height: 100%;
+    }
+}

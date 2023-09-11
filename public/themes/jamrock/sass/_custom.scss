@@ -1,0 +1,480 @@
+.h-badge {
+    line-height: 44px;
+    &.active{
+        background: transparent !important;
+    }
+    span {
+       display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        padding: 2px;
+        background: $blue-color;
+        line-height: 0;
+        border-radius: 20px;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
+.extra-item.h-full img{
+    display: inline-block !important;
+
+
+}
+.extra-item .e-price{
+    color: $green-color !important;
+    font-size: 15px !important;
+}
+.extra-item.h-full{
+    .rounded{
+        background: transparent;
+        border: $blue-color solid 1px;
+        border-radius: 4px;
+        color: $blue-color;
+        padding: 6px 30px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+}
+
+.map_clear{
+    position: absolute;
+    display: block;
+    right: 9px;
+    z-index: 100;
+    top: 13px;
+    img{
+        max-width: 14px;
+    }
+}
+#myTabContent{
+    &:before{
+        z-index: -1;
+    }
+}
+
+.extra_box{
+    border: $green-color solid 1px;
+    border-radius: 3px;
+    padding: 5px 10px 0 10px;
+    color: $green-color;
+    text-align: center;
+    background: #FFF;
+
+    .text-10{
+        line-height: 2px;
+        margin-top: 8px;
+        font-size: 14px !important;
+    }
+    .text-14{
+        font-size: 17px !important;
+    }
+
+    img{
+        max-width: 30px !important;
+    }
+
+    &.blue{
+        border-color: $blue-color;
+        color: $blue-color;
+        .text-15{
+            line-height: 20px;
+        }
+        img{
+            max-height: 22px;
+            margin-top: -2px;
+            margin-bottom: 2px;
+        }
+    }
+}
+
+.results_map{
+    @media(max-width: 992px){
+        margin: 0 -15px;
+        width: calc(100% + 30px) !important;
+    }
+}
+
+.price_box{
+    margin: 10px 0;
+    p{
+        color: $green-color;
+        font-weight: bold;
+        margin-bottom: 3px;
+        small{
+            color: red;
+            text-decoration: line-through;
+        }
+    }
+    a{
+        display: block;
+        text-align: center;
+        border: #0070c0 solid 2px;
+        border-radius: 6px;
+        padding: 7px 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+.filter-item .popup_location{
+    z-index: 200;
+    width: calc(100% + 30px);
+    left: -15px;
+}
+
+.popup_location{
+    ul{
+        display: flex;
+        width:100%;
+        justify-content: center;
+        align-content: center;
+        border: none;
+        li{
+            button{
+                color: $blue-color;
+                background: transparent;
+                border-radius: 3px !important;
+                border: #ddd solid 1px !important;
+                padding: 3px 15px;
+                &.active{
+                    background: $blue-color !important;
+                    border-color: $blue-color !important;
+                    color: #FFF !important;
+                }
+            }
+        }
+    }
+}
+
+
+#pickAddress{
+    background: #FFF;
+    border-radius: 4px;
+    border: #ddd solid 1px;
+    input{
+        height: 42px;
+        background: #FFF;
+        font-size: 16px;
+    }
+    #fromAddress{
+        input{
+            color:$green-color;
+
+        }
+
+        svg{
+            color:$green-color;
+        }
+    }
+    #toAddress{
+        input{
+            color:$blue-color;
+
+        }
+
+        svg{
+            color:$blue-color;
+        }
+    }
+    #btnPickAddress{
+        height: 35px;
+        width: 35px;
+        line-height: 33px;
+        top: 21px;
+    }
+}
+.text-green{
+    color: $green-color;
+}
+.bg-green{
+    background: $green-color;
+}
+
+
+
+
+.form-floating{
+    .more_info_tooltip{
+        position: unset !important;
+        button{
+            border: 0;
+            background: transparent;
+            padding: 0;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: 100;
+            outline: none !important;
+
+            &:after{
+                display: none;
+            }
+
+            &:focus{
+                outline: none !important;
+            }
+
+            img{
+                max-width: 22px;
+            }
+
+            @media (max-width: 768px) {
+                max-width: none;
+            }
+        }
+        .card-header{
+            font-size: 13px;
+            padding: 8px 10px;
+        }
+
+        .card-body{
+            padding: 10px !important;
+            p{
+                font-size: 12px;
+                margin-bottom: 0;
+            }
+        }
+
+    }
+
+}
+
+.location_card{
+    .location{
+        color: #000 !important;
+        svg{
+            color: $green-color !important;
+        }
+
+    }
+    .g-price{
+        i{
+            color: $green-color !important;
+        }
+        .fr_text{
+            color: #000 !important;
+        }
+        .text-price{
+            font-weight: 400 !important;
+            font-size: 14px !important;
+        }
+        .onsale{
+            position: unset !important;
+        }
+
+    }
+
+}
+
+.tour-card-title{
+    min-height: auto !important;
+    a{
+        color: $blue-color !important;
+        font-size: 14px !important;
+    }
+
+    i{
+        color: $green-color;
+    }
+
+}
+
+.bravo_wrap .bravo_detail_tour .bravo_content .g-gallery .social{
+    top: 15px !important;
+}
+.bravo_wrap .bravo_detail_tour .bravo_content .g-gallery .social .social-share .share-wrapper{
+    left: 5px !important;
+}
+
+.share-wrapper{
+    li{
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+.contact_page{
+    .box-item{
+        .title{
+            color: #000 !important;
+            border: none !important;
+            font-size: 16px !important;
+            font-weight: 600 !important;
+        }
+    }
+
+    .style1{
+        display: block !important;
+        .item{
+            width: 100% !important;
+            a{
+                border: $blue-color solid 1px;
+                border-radius: 4px;
+                padding: 4px 25px;
+                width: 100%;
+                text-align: center;
+                svg{
+                    max-width: 25px;
+                    height: 25px;
+                }
+                .icon{
+                    line-height: 30px !important;
+                }
+
+                @media(max-width: 768px){
+                    flex-direction: row !important;
+                    padding: 0 10px !important;
+                }
+
+            }
+        }
+    }
+}
+
+.quick_links{
+    a{
+        background: transparent !important;
+        border: #0070c0 solid 1px;
+        border-radius: 4px;
+        padding: 6px 25px !important;
+        width: 100%;
+        text-align: center;
+        color: #000 !important;
+    }
+}
+
+
+.social_link{
+    text-align: center;
+    ul{
+        display: inline-block;
+        li{
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            text-align: center;
+            border: #ddd solid 1px;
+            padding: 3px;
+            display: inline-block;
+            padding-top: 4px;
+            margin: 10px;
+            a{
+                display: block;
+                font-size: 22px;
+            }
+
+        }
+        .facebook{
+            a{
+                color: #3b5998;
+            }
+        }
+        .instagram{
+            a{
+                color: #feda75;
+            }
+        }
+        .twitter{
+            a{
+                color: #00acee;
+            }
+        }
+        .youtube{
+            a{
+                color: red;
+            }
+        }
+    }
+}
+
+.bg-gray{
+    background: #ddd !important;
+}
+
+
+.custom_checkout_style{
+
+    border: 1px solid #d7dce3;
+    border-radius: 3px;
+
+    .form-group{
+        border-bottom: 1px solid #d7dce3;
+        padding: 5px 10px;
+        margin-bottom: 0 !important;
+        label{
+            margin: 0;
+            color: #6c757d;
+            font-size: 12px;
+        }
+        input{
+            border: none;
+            padding: 0;
+            height: 32px;
+            &:focus{
+                box-shadow: none;
+                outline: none;
+            }
+        }
+        select{
+            border: none;
+            padding: 0;
+            height: 32px;
+            &:focus{
+                box-shadow: none;
+                outline: none;
+            }
+        }
+        textarea{
+            border: none;
+            padding: 0;
+            height: 32px;
+            &:focus{
+                box-shadow: none;
+                outline: none;
+            }
+        }
+    }
+}
+
+
+.btn-secondary.one_way{
+    display: block;
+    text-align: center;
+    border: $blue-color solid 2px;
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    background: #FFF;
+    color: $blue-color;
+}
+
+.round-trip .btn-secondary{
+    display: block;
+    text-align: center;
+    border: $blue-color solid 2px;
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    background: #FFF;
+    color: $blue-color;
+}
+#pickAddress input{
+    font-size: 17px;
+}
+
+@media (max-width: 768px){
+    .bravo_wrap .bravo_header{
+        border-bottom: 1px solid #EAEEF3;
+        margin-bottom: 10px;
+    }
+    .bravo-booking-page{
+        padding-top: 30px !important;
+    }
+    .bravo_detail_car{
+        padding-top: 30px !important;
+    }
+}

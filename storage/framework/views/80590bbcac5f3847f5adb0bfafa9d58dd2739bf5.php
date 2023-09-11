@@ -1,0 +1,1 @@
+<?php /**PATH /var/www/testing.jamaicataxi.com/htdocs/themes/Jamrock/Layout/parts/bc.blade.php ENDPATH**/ ?>

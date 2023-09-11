@@ -1,0 +1,93 @@
+.bravo_footer{
+    background: #0070C0;
+    color:white;
+    padding-top: 0px;
+}
+.bravo_wrap .bravo_footer .main-footer .nav-footer .context ul li a{
+    color:white;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.bravo_wrap .bravo_footer .main-footer .nav-footer .context .contact .sub a i{
+    color:white;
+}
+.bravo_wrap .bravo_footer .main-footer .nav-footer{
+    .sub{
+        a{
+            background: #2186CF;
+            display: inline-flex;
+            margin-right: 15px;
+            font-size: 30px;
+            color:white;
+            border-radius: 50%;
+            width: 63px;
+            height: 63px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            i{
+                color:white;
+            }
+        }
+    }
+}
+.bravo_wrap .bravo_footer .main-footer .nav-footer .title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-transform: initial;
+    &:before{
+        display: none;
+    }
+}
+.bravo_wrap .bravo_header{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.bravo_wrap .bravo_header .content .header-left .bravo-menu >ul >li{
+    margin-right: 20px;
+    >a{
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        padding: 10px 14px;
+    }
+    &:hover,&.active{
+        >a{
+            background: #FF007F;
+            border-color: #FF007F;
+            color:white!important;
+            .icofont-ticket{
+                &::before{
+                    background: url(/themes/jamrock/images/icon-event-white.svg);
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
+.bravo_wrap .bravo_header .content .header-right .topbar-items li a{
+    font-size: 16px;
+}
+.bravo_wrap .bravo_header .content .header-left {
+    min-height: 65px;
+}
+.bravo_wrap .bravo_header .content .header-left .bravo-menu ul li a
+{
+    font-weight: 500;
+}
+@media (min-width: 1023px){
+    .frontend-page.header-transparent .bravo_wrap .bravo_header {
+        top: 0px;
+        border: none;
+    }
+    .frontend-page.header-transparent .bravo_wrap .bravo_header .content {
+        .header-left .bravo-menu > ul > li > a {
+            border: none;
+        }
+        .header-right *{
+            color: #fff;
+        }
+    }
+}

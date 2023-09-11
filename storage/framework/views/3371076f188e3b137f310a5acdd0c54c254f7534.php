@@ -1,0 +1,1 @@
+<?php /**PATH /Applications/MAMP/htdocs/jamaica_texi/themes/Jamrock/Layout/parts/bc.blade.php ENDPATH**/ ?>

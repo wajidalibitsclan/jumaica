@@ -1,0 +1,255 @@
+@media (max-width: 768px) {
+    .bravo_wrap .bravo_header {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        border:none;
+        .bravo-more-menu{
+            color:white;
+        }
+        .bravo-menu-mobile{
+            .caret {
+                font-size: 20px;
+            }
+            font-size: 16px;
+            .user-profile ul{
+                padding: 10px;
+                padding-bottom: 0px;
+                margin-bottom: 10px;
+                li{
+                    i{
+                        font-size: 20px;
+                    }
+                }
+                .dropdown-menu{
+                    padding-bottom: 10px;
+                }
+            }
+            .g-menu>ul{
+                padding: 10px;
+            }
+
+            .g-menu > ul > li a .caret:before {
+                content: "\f107";
+            }
+            .g-menu > ul > li.active > a > .caret:before {
+                content: "\f106";
+            }
+        }
+    }
+    html,body{
+        background: transparent;
+        position: relative;
+    }
+    body{
+        padding-top: 60px;
+    }
+    .bravo_form_search_map{
+        .bravo_form{
+            margin-bottom: 10px;
+        }
+        .px-30px{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .pt-30px{
+            padding-top: 20px;
+        }
+    }
+    .bravo_wrap .bravo-list-item .topbar-search{
+        justify-content: space-between;
+        .text,.control{
+            width: auto!important;
+            flex:none!important;
+        }
+        .control{
+            a{
+                color:var(--primary);
+            }
+        }
+    }
+    .has-search-map .bravo_search_map{
+        padding: 10px;
+
+    }
+    .has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map .box-count{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .has-search-map .bravo_search_map .results_item .listing_items .bravo-list-item{
+        padding: 0px!important;
+        margin-top: 15px;
+    }
+
+    .has-search-map .bravo_wrap .bravo_search_tour .bravo_form_search_map .filter-item:first-child:after{
+        display: none!important;
+    }
+    .bravo-about-contact .box-content .box-item .lists.style1{
+        justify-content: center;
+        column-gap: 15px;
+        .item{
+            border-radius: 8px;
+            background: white;
+            flex: 0 0 30%;
+            width: 30%;
+            a.d-flex{
+                flex-direction: column;
+                padding: 15px 10px;
+                max-width: 100%;
+                .icon{
+                    font-size: 28px;
+                    margin-bottom: 7px;
+                }
+                .c-content{
+                    max-width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+    }
+    .header-banner{
+        padding: 30px 0px;
+        padding-top: 40px;
+        h1{
+            font-size: 27px;
+            line-height: initial;
+        }
+        p{
+            font-size: 20px;
+            line-height: initial;
+        }
+    }
+    .main-container{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .extra-title{
+        font-size: 18px;
+        line-height: initial;
+    }
+    .extra-desc{
+        font-size: 13px;
+    }
+    .xs\:mb-3{
+        margin-bottom: 15px;
+    }
+    .main-footer .row >div{
+        width: 50%;
+    }
+}
+.bravo_wrap{
+    .bravo_header{
+        .content {
+            .icon-service{
+                display: none;
+            }
+        }
+    }
+}
+.frontend-page.header-transparent{
+    @media (max-width: 768px){
+        padding: 0;
+        .bravo_wrap{
+            .bravo_header{
+                z-index: 99;
+                background: transparent !important;
+                .content {
+                    background: transparent !important;
+                    i{
+                        font-size: 20px;
+                    }
+                    .bravo-more-menu{
+                        color: #fff;
+                    }
+                    .icon-service{
+                        color: #fff;
+                        border: none;
+                        background: transparent;
+                        font-size: 32px;
+                        padding: 0px 10px;
+                        transition: all 0.3s;
+                        display: block;
+                        float: right;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+.frontend-page.header-normal{
+    @media (max-width: 768px){
+        .bravo_wrap{
+            .bravo_header{
+                background: #fff;
+                z-index: 99;
+                .content {
+
+                    i{
+                        font-size: 24px;
+                    }
+                    .bravo-more-menu{
+                        color: #1A2B48;
+                        path{
+                            color: #1A2B48;
+                        }
+                        &.active{
+                            path{
+                                color: #fff;
+                            }
+                        }
+                    }
+                    .icon-service{
+                        color: #1A2B48;
+                        border: none;
+                        background: transparent;
+                        font-size: 32px;
+                        padding: 0px 10px;
+                        transition: all 0.3s;
+                        display: block;
+                        float: right;
+                        text-decoration: none;
+                    }
+                    .icofont-ticket-white{
+                        &::before{
+                            top: 2px;
+                            content: "";
+                            width: 20px;
+                            height: 20px;
+                            background: url(/themes/jamrock/images/icon-event.svg);
+                            display: inline-block;
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            position: relative;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bravo_single_book{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+#selectTripType .btn{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.bravo_wrap .bravo_single_book .submit-group{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    border:none!important;
+}
+.btn-actions{
+    .btn{
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+}

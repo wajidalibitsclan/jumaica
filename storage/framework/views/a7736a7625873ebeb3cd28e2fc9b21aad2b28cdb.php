@@ -1,0 +1,1 @@
+<?php /**PATH /Applications/MAMP/htdocs/jamaica_texi/themes/Jamrock/Tour/Views/frontend/layouts/details/vendor.blade.php ENDPATH**/ ?>
